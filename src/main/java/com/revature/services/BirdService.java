@@ -11,7 +11,7 @@ public class BirdService {
 	private List<Bird> birds = new ArrayList<>();
 	
 	public BirdService() {
-		birds.add(new Bird(1,"Tweety",50,"Canary"));
+		birds.add(new Bird(1,"Miranda",50,"Canary"));
 		birds.add(new Bird(2, "Fluffy", 20, "Crow"));
 		birds.add(new Bird(3, "Sam", 40, "Toucan" ));
 	}
