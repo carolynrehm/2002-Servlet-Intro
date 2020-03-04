@@ -4,6 +4,10 @@
   <artifactId>ServletIntro</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+
+  <build>
+   	<finalName>WhatEverYouLikey</finalName>
+  </build>
   
   <properties>
   	<maven.compiler.source>1.8</maven.compiler.source>
