@@ -10,6 +10,10 @@ import java.io.IOException;
 public class HealthCheckServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        ObjectMapper om = new ObjectMapper();
+		try(PrintWriter pw = response.getWriter();){
+			pw.write("{ \"status\" : \"UP\"}");
+		}
     }
 
     }
